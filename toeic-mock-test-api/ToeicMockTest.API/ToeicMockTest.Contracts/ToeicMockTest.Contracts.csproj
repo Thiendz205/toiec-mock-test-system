@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToeicMockTest.SharedKernel\ToeicMockTest.SharedKernel.csproj" />
+  </ItemGroup>
+
 </Project>

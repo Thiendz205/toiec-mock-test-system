@@ -1,3 +1,11 @@
 <Solution>
   <Project Path="ToeicMockTest.API/ToeicMockTest.API.csproj" />
+  <Project Path="ToeicMockTest.Application/ToeicMockTest.Application.csproj" />
+  <Project Path="ToeicMockTest.Contracts/ToeicMockTest.Contracts.csproj" />
+  <Project Path="ToeicMockTest.Crosscutting/ToeicMockTest.Crosscutting.csproj" />
+  <Project Path="ToeicMockTest.Domain/ToeicMockTest.Domain.csproj" />
+  <Project Path="ToeicMockTest.Infrastructure/ToeicMockTest.Infrastructure.csproj" />
+  <Project Path="ToeicMockTest.SharedKernel/ToeicMockTest.SharedKernel.csproj" />
+  <Project Path="ToeicMockTest.Test/ToeicMockTest.Test.csproj" />
+  <Project Path="ToeicTestMock.Worker/ToeicTestMock.Worker.csproj" />
 </Solution>

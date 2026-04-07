@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToeicMockTest.Contracts\ToeicMockTest.Contracts.csproj" />
+    <ProjectReference Include="..\ToeicMockTest.Crosscutting\ToeicMockTest.Crosscutting.csproj" />
+    <ProjectReference Include="..\ToeicMockTest.Domain\ToeicMockTest.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
