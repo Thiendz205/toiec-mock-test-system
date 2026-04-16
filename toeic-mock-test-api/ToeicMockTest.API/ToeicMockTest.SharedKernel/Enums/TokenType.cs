@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ToeicMockTest.Domain.Common.Enums
+namespace ToeicMockTest.SharedKernel.Common.Enums
 {
     public enum TokenType
     {
