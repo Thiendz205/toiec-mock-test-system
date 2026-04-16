@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToeicMockTest.Domain.Common;
-using ToeicMockTest.Domain.Common.Enums;
+using ToeicMockTest.SharedKernel.Common.Enums;
 namespace ToeicMockTest.Domain.Entities
 {
     public class User : BaseAuditableEntity
@@ -44,6 +44,21 @@ namespace ToeicMockTest.Domain.Entities
             FirstName = firstName;
             LastName = lastName;
             SetUpdatedInfo(updatedById);
+        }
+        public void AdminUpdateUser(string firstName, string lastName, string email, Guid roleId, Guid updatedById)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Email = email; 
+            RoleId = roleId;
+            SetUpdatedInfo(updatedById);
+        }
+        public void Restore()
+        {
+            if (Status == RecordStatus.Delete)
+            {
+                Activate();
+            }
         }
     }
 }

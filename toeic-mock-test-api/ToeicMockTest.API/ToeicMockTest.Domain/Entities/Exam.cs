@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToeicMockTest.Domain.Common;
-using ToeicMockTest.Domain.Common.Enums;
+using ToeicMockTest.SharedKernel.Common.Enums;
 
 namespace ToeicMockTest.Domain.Entities
 {

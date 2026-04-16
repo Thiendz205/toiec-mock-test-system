@@ -10,9 +10,9 @@ using ToeicMockTest.Domain.Entities;
 
 namespace ToeicMockTest.Infrastructure.Persistence
 {
-    public class AppDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
        : base(options)
         {
         }
